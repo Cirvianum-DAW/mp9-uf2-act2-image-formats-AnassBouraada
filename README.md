@@ -22,7 +22,7 @@ As you can see, this code allows us to display some images and dynamically show 
 This is a table of the different formats and compression levels to be considered (doesn't mean you must have all of them, but at least the ones mentioned):
 
 | Image Name       | Formats        | Compression Levels | Color Depth           |
-| ---------------- | -------------- | ------------------ | --------------------- |
+| ---------------- | -------------- | ------------------ | --------------------- |                                  
 | logotip.png      | PNG, JPEG, GIF | Low, Medium, High  | 8-bit, 24-bit, 32-bit |
 | plujaEstels.jpg  | PNG, JPEG, GIF | Low, Medium, High  | 8-bit, 24-bit, 32-bit |
 | postaDeSol.gif   | PNG, JPEG, GIF | Low, Medium, High  | 8-bit, 24-bit, 32-bit |
