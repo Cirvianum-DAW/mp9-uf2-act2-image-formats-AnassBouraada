@@ -1,93 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Transparency</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparència</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-      }
-      .image-container {
-        margin-bottom: 20px;
-        border: 2px solid #ccc;
-        border-radius: 8px;
-        padding: 10px;
-      }
-      .image-container h2 {
-        text-align: center;
-        margin-bottom: 10px;
-      }
-      .button-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 20px;
-      }
-      .back-button {
-        background-color: #4caf50;
-        border: none;
-        color: white;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-      .back-button:hover {
-        background-color: #45a049;
-      }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .image-container {
+            margin-bottom: 20px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .image-container h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .back-button {
+            background-color: #4caf50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #45a049;
+        }
     </style>
-  </head>
-  <body>
-    <header
-      class="bg-blue-500 text-white text-center p-5 flex flex-col md:flex-row justify-between items-center"
-    >
-      <h1 class="text-4xl">Transparency</h1>
-      <div class="button-container">
-        <a href="index.html" class="back-button">Pàgina principal</a>
-      </div>
+</head>
+<body>
+    <header class="bg-blue-500 text-white text-center p-5 flex flex-col md:flex-row justify-between items-center">
+        <h1 class="text-4xl">Transparència</h1>
+        <div class="button-container">
+            <a href="index.html" class="back-button">Pàgina principal</a>
+        </div>
     </header>
     <div class="container">
-      <div class="image-container">
-        <h2>Transparency PNG</h2>
-        <img
-          src="images/transparency/transparency.png"
-          alt="Transparency PNG"
-        />
-        <div class="image-info text-center"></div>
-      </div>
-      <div class="image-container">
-        <h2>Transparency JPEG</h2>
-        <img
-          src="images/transparency/transparency.jpeg"
-          alt="Transparency JPEG"
-        />
-        <div class="image-info text-center"></div>
-      </div>
-      <div class="image-container">
-        <h2>Transparency GIF</h2>
-        <img
-          src="images/transparency/transparency.gif"
-          alt="Transparency GIF"
-        />
-        <div class="image-info text-center"></div>
-      </div>
+        <div class="image-container">
+            <h2>Transparència PNG</h2>
+            <img src="images/transparency/transparency.png" alt="Transparència PNG" />
+            <div class="image-info text-center"></div>
+        </div>
+        <div class="image-container">
+            <h2>Transparència PNG (Qualitat Baixa)</h2>
+            <img src="images/transparency/transparency-min.png" alt="Transparència PNG (Qualitat Baixa)" />
+            <div class="image-info text-center"></div>
+        </div>
+        <div class="image-container">
+            <h2>Transparència JPEG (Qualitat Alta)</h2>
+            <img src="images/transparency/transparency_alta_qualitat.jpg" alt="Transparència JPEG (Qualitat Alta)" />
+            <div class="image-info text-center"></div>
+        </div>
+        <div class="image-container">
+            <h2>Transparència JPEG (Qualitat Mitjana)</h2>
+            <img src="images/transparency/transparency_mitjana_qualitat.jpg" alt="Transparència JPEG (Qualitat Mitjana)" />
+            <div class="image-info text-center"></div>
+        </div>
+        <div class="image-container">
+            <h2>Transparència JPEG (Qualitat Baixa)</h2>
+            <img src="images/transparency/transparency_baixa_qualitat.jpg" alt="Transparència JPEG (Qualitat Baixa)" />
+            <div class="image-info text-center"></div>
+        </div>
+        <div class="image-container">
+            <h2>Transparència GIF</h2>
+            <img src="images/transparency/transparency.gif" alt="Transparència GIF" />
+            <div class="image-info text-center"></div>
+        </div>
     </div>
     <script src="scripts/main.js"></script>
+    <div class="container">
+      <div class="image-info text-center">
+        <h2>Anàlisi de la Transparència:</h2>
+        <p><strong>1. Format òptim:</strong> El format més òptim per a aquest tipus d'imatge és el PNG amb transparència. Aquest format permet mantenir la transparència de la imatge sense pèrdua de qualitat, la qual cosa és crucial per a imatges amb zones transparents com aquesta.</p>
+        <p><strong>2. Què passa quan ho guardem en format JPEG?</strong> En el cas de guardar una imatge amb transparència en format JPEG, es perdrà la transparència i es convertiran les àrees transparents en blanc o en un color sòlid, la qual cosa pot afectar negativament l'aparença de la imatge.</p>
+        <p><strong>3. Si el nostre lloc web té un fons blanc, quin format seria el més òptim i per què?</strong> En aquest cas, el format més òptim seria el JPEG amb fons blanc. Com que el fons del lloc web ja és blanc, no cal mantenir la transparència, i el JPEG permet una millor compressió sense pèrdua notable de qualitat.</p>
+        <p><strong>Problemes Principals:</strong></p>
+        <ul>
+            <li>Les imatges no estan optimitzades, el que pot provocar temps de càrrega més llargs.</li>
+            <li>La mida del fitxer d'algunes imatges en format PNG és excessiva..</li>
+        </ul>
+        <p><strong>Recomanacions:</strong></p>
+        <ul>
+            <li>Optimitzar les imatges per reduir la seva mida de fitxer, especialment aquelles en format PNG.</li>
+            <li>Considerar l'ús de formats d'imatge més eficients com JPEG amb una qualitat mitjana per a imatges que no requereixen transparència.</li>
+        </ul>
 
-  </body>
+      </div>
+    </div>
+</body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +33,7 @@
             margin-top: 20px;
         }
         .back-button {
-            background-color: #4CAF50;
+            background-color: #4caf50;
             border: none;
             color: white;
             padding: 10px 20px;
@@ -58,13 +58,28 @@
     </header>
     <div class="container">
         <div class="image-container">
-            <h2>Posta de Sol PNG</h2>
-            <img src="images/postaDeSol/postaDeSol.png" alt="Posta de Sol PNG" />
+            <h2>Posta de Sol PNG (Qualitat Alta)</h2>
+            <img src="images/postaDeSol/postaDeSol.png" alt="Posta de Sol PNG (Qualitat Alta)" />
             <div class="image-info text-center"></div>
         </div>
         <div class="image-container">
-            <h2>Posta de Sol JPEG</h2>
-            <img src="images/postaDeSol/postaDeSol.jpeg" alt="Posta de Sol JPEG" />
+            <h2>Posta de Sol PNG (Qualitat Baixa)</h2>
+            <img src="images/postaDeSol/postaDeSol-min.png" alt="Posta de Sol PNG (Qualitat Baixa)" />
+            <div class="image-info text-center"></div>
+        </div>
+        <div class="image-container">
+            <h2>Posta de Sol JPEG (Qualitat Alta)</h2>
+            <img src="images/postaDeSol/postaDeSol_alta_qualitat.jpg" alt="Posta de Sol JPEG (Qualitat Alta)" />
+            <div class="image-info text-center"></div>
+        </div>
+        <div class="image-container">
+            <h2>Posta de Sol JPEG (Qualitat Mitjana)</h2>
+            <img src="images/postaDeSol/postaDeSol_mitjana_qualitat.jpg" alt="Posta de Sol JPEG (Qualitat Mitjana)" />
+            <div class="image-info text-center"></div>
+        </div>
+        <div class="image-container">
+            <h2>Posta de Sol JPEG (Qualitat Baixa)</h2>
+            <img src="images/postaDeSol/postaDeSol_baixa_qualitat.jpg" alt="Posta de Sol JPEG (Qualitat Baixa)" />
             <div class="image-info text-center"></div>
         </div>
         <div class="image-container">
@@ -72,9 +87,25 @@
             <img src="images/postaDeSol/postaDeSol.gif" alt="Posta de Sol GIF" />
             <div class="image-info text-center"></div>
         </div>
-        
     </div>
-    <script src="scripts/main.js"></script>
-
+    <script src="scripts/main.js"></script>ç
+    <div class="container">
+        <div class="image-analysis">
+          <h2>Anàlisi de la Posta de Sol:</h2>
+          <p><strong>1. Format òptim:</strong> El format més òptim per a aquesta imatge és el JPEG de baixa qualitat. Aquest format ofereix una reducció significativa de la mida del fitxer sense una pèrdua notable de qualitat visual.</p>
+          <p><strong>2. Reducció de mida:</strong> La mida del fitxer es pot reduir encara més utilitzant la compressió del JPEG de baixa qualitat sense afectar greument la qualitat visual de la imatge. Això permet un temps de càrrega més ràpid sense sacrificar massa qualitat.</p>
+          <p><strong>3. Pèrdua de qualitat:</strong> Si guardem la imatge diverses vegades amb format JPEG, es produirà una degradació gradual de la qualitat degut a la compressió repetida. Cada vegada que s'aplica la compressió, es perden detalls i es generen artefactes, disminuint la qualitat de la imatge.</p>
+          <p><strong>Problemes Principals:</strong></p>
+          <ul>
+              <li>Les imatges no estan optimitzades, el que pot provocar temps de càrrega més llargs.</li>
+              <li>La mida del fitxer d'algunes imatges pot ser excessiva, especialment en format GIF.</li>
+          </ul>
+          <p><strong>Recomanacions:</strong></p>
+          <ul>
+              <li>Optimitzar les imatges per reduir la seva mida de fitxer, especialment aquelles en format GIF.</li>
+              <li>Utilitzar formats d'imatge més eficients com JPEG amb una qualitat mitjana per aconseguir una millor relació entre la qualitat i la mida del fitxer..</li>
+          </ul>
+        </div>
+      </div>
 </body>
 </html>
